@@ -192,7 +192,7 @@ Each test displays:
 
 ## License
 
-This project was developed as coursework for EECE 423. All rights reserved by the authors.
+This project was developed as coursework for EECE 423. Feel free to use it as you want for learning purposes
 
 ## Acknowledgments
 
