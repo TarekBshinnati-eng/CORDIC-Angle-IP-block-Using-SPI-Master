@@ -5,7 +5,7 @@
 This project implements a CORDIC (COordinate Rotation DIgital Computer) algorithm IP block on a Xilinx Zynq FPGA platform to calculate tilt angles from accelerometer data. The system uses an SPI Master interface to communicate with an ADXL345 accelerometer and processes the Y and Z axis data through a hardware CORDIC unit to compute the angle in real-time.
 
 **Course:** EECE 423
-**Authors:** Tarek Bshinnati & Soheil
+**Authors:** Tarek Bshinnati & Soheil Haroun
 
 ## System Architecture
 
