@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_cordic_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_cordic" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="2,595.001 ns"></ZoomEndTime>
+      <Cursor1Time time="2,595.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="404"></NameColumnWidth>
+      <ValueColumnWidth column_width="190"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="87" />
+   <wvobject fp_name="/tb_cordic/aclk" type="logic">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/arstn" type="logic">
+      <obj_property name="ElementShortName">arstn</obj_property>
+      <obj_property name="ObjectShortName">arstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/awaddr" type="array">
+      <obj_property name="ElementShortName">awaddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">awaddr[4:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/awprot" type="array">
+      <obj_property name="ElementShortName">awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">awprot[2:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/awvalid" type="logic">
+      <obj_property name="ElementShortName">awvalid</obj_property>
+      <obj_property name="ObjectShortName">awvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/awready" type="logic">
+      <obj_property name="ElementShortName">awready</obj_property>
+      <obj_property name="ObjectShortName">awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/wdata" type="array">
+      <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/wstrb" type="array">
+      <obj_property name="ElementShortName">wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/wvalid" type="logic">
+      <obj_property name="ElementShortName">wvalid</obj_property>
+      <obj_property name="ObjectShortName">wvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/wready" type="logic">
+      <obj_property name="ElementShortName">wready</obj_property>
+      <obj_property name="ObjectShortName">wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/bresp" type="array">
+      <obj_property name="ElementShortName">bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/bvalid" type="logic">
+      <obj_property name="ElementShortName">bvalid</obj_property>
+      <obj_property name="ObjectShortName">bvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/bready" type="logic">
+      <obj_property name="ElementShortName">bready</obj_property>
+      <obj_property name="ObjectShortName">bready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/araddr" type="array">
+      <obj_property name="ElementShortName">araddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">araddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/arprot" type="array">
+      <obj_property name="ElementShortName">arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/arvalid" type="logic">
+      <obj_property name="ElementShortName">arvalid</obj_property>
+      <obj_property name="ObjectShortName">arvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/arready" type="logic">
+      <obj_property name="ElementShortName">arready</obj_property>
+      <obj_property name="ObjectShortName">arready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/rdata" type="array">
+      <obj_property name="ElementShortName">rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/rresp" type="array">
+      <obj_property name="ElementShortName">rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/rvalid" type="logic">
+      <obj_property name="ElementShortName">rvalid</obj_property>
+      <obj_property name="ObjectShortName">rvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/rready" type="logic">
+      <obj_property name="ElementShortName">rready</obj_property>
+      <obj_property name="ObjectShortName">rready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/rd_val" type="array">
+      <obj_property name="ElementShortName">rd_val[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_val[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/angle_out" type="array">
+      <obj_property name="ElementShortName">angle_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">angle_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/tc_num" type="array">
+      <obj_property name="ElementShortName">tc_num[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tc_num[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/C_Y" type="array">
+      <obj_property name="ElementShortName">C_Y[4:0]</obj_property>
+      <obj_property name="ObjectShortName">C_Y[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/C_Z" type="array">
+      <obj_property name="ElementShortName">C_Z[4:0]</obj_property>
+      <obj_property name="ObjectShortName">C_Z[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/C_CTRL" type="array">
+      <obj_property name="ElementShortName">C_CTRL[4:0]</obj_property>
+      <obj_property name="ObjectShortName">C_CTRL[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/C_STATUS" type="array">
+      <obj_property name="ElementShortName">C_STATUS[4:0]</obj_property>
+      <obj_property name="ObjectShortName">C_STATUS[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/C_ANGLE" type="array">
+      <obj_property name="ElementShortName">C_ANGLE[4:0]</obj_property>
+      <obj_property name="ObjectShortName">C_ANGLE[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/S_AXI_ACLK" type="logic">
+      <obj_property name="ElementShortName">S_AXI_ACLK</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ACLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/S_AXI_ARESETN" type="logic">
+      <obj_property name="ElementShortName">S_AXI_ARESETN</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARESETN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/S_AXI_AWADDR" type="array">
+      <obj_property name="ElementShortName">S_AXI_AWADDR[4:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWADDR[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/S_AXI_AWPROT" type="array">
+      <obj_property name="ElementShortName">S_AXI_AWPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWPROT[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/S_AXI_AWVALID" type="logic">
+      <obj_property name="ElementShortName">S_AXI_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/S_AXI_AWREADY" type="logic">
+      <obj_property name="ElementShortName">S_AXI_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/S_AXI_WDATA" type="array">
+      <obj_property name="ElementShortName">S_AXI_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/S_AXI_WSTRB" type="array">
+      <obj_property name="ElementShortName">S_AXI_WSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WSTRB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/S_AXI_WVALID" type="logic">
+      <obj_property name="ElementShortName">S_AXI_WVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/S_AXI_WREADY" type="logic">
+      <obj_property name="ElementShortName">S_AXI_WREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/S_AXI_BRESP" type="array">
+      <obj_property name="ElementShortName">S_AXI_BRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_BRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/S_AXI_BVALID" type="logic">
+      <obj_property name="ElementShortName">S_AXI_BVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_BVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/S_AXI_BREADY" type="logic">
+      <obj_property name="ElementShortName">S_AXI_BREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_BREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/S_AXI_ARADDR" type="array">
+      <obj_property name="ElementShortName">S_AXI_ARADDR[4:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARADDR[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/S_AXI_ARPROT" type="array">
+      <obj_property name="ElementShortName">S_AXI_ARPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARPROT[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/S_AXI_ARVALID" type="logic">
+      <obj_property name="ElementShortName">S_AXI_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/S_AXI_ARREADY" type="logic">
+      <obj_property name="ElementShortName">S_AXI_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/S_AXI_RDATA" type="array">
+      <obj_property name="ElementShortName">S_AXI_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/S_AXI_RRESP" type="array">
+      <obj_property name="ElementShortName">S_AXI_RRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/S_AXI_RVALID" type="logic">
+      <obj_property name="ElementShortName">S_AXI_RVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/S_AXI_RREADY" type="logic">
+      <obj_property name="ElementShortName">S_AXI_RREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/axi_awaddr" type="array">
+      <obj_property name="ElementShortName">axi_awaddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_awaddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/axi_awready" type="logic">
+      <obj_property name="ElementShortName">axi_awready</obj_property>
+      <obj_property name="ObjectShortName">axi_awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/axi_wready" type="logic">
+      <obj_property name="ElementShortName">axi_wready</obj_property>
+      <obj_property name="ObjectShortName">axi_wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/axi_bresp" type="array">
+      <obj_property name="ElementShortName">axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/axi_bvalid" type="logic">
+      <obj_property name="ElementShortName">axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/axi_araddr" type="array">
+      <obj_property name="ElementShortName">axi_araddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_araddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/axi_arready" type="logic">
+      <obj_property name="ElementShortName">axi_arready</obj_property>
+      <obj_property name="ObjectShortName">axi_arready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/axi_rresp" type="array">
+      <obj_property name="ElementShortName">axi_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/axi_rvalid" type="logic">
+      <obj_property name="ElementShortName">axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/slv_reg0" type="array">
+      <obj_property name="ElementShortName">slv_reg0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/slv_reg1" type="array">
+      <obj_property name="ElementShortName">slv_reg1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/slv_reg2" type="array">
+      <obj_property name="ElementShortName">slv_reg2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/slv_reg3" type="array">
+      <obj_property name="ElementShortName">slv_reg3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/slv_reg4" type="array">
+      <obj_property name="ElementShortName">slv_reg4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/byte_index" type="array">
+      <obj_property name="ElementShortName">byte_index[31:0]</obj_property>
+      <obj_property name="ObjectShortName">byte_index[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/state_write" type="array">
+      <obj_property name="ElementShortName">state_write[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state_write[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/state_read" type="array">
+      <obj_property name="ElementShortName">state_read[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state_read[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/cU" type="array">
+      <obj_property name="ElementShortName">cU[15:0]</obj_property>
+      <obj_property name="ObjectShortName">cU[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/cV" type="array">
+      <obj_property name="ElementShortName">cV[15:0]</obj_property>
+      <obj_property name="ObjectShortName">cV[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/cTh" type="array">
+      <obj_property name="ElementShortName">cTh[15:0]</obj_property>
+      <obj_property name="ObjectShortName">cTh[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/cIter" type="array">
+      <obj_property name="ElementShortName">cIter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cIter[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/cBusy" type="logic">
+      <obj_property name="ElementShortName">cBusy</obj_property>
+      <obj_property name="ObjectShortName">cBusy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/cDone" type="logic">
+      <obj_property name="ElementShortName">cDone</obj_property>
+      <obj_property name="ObjectShortName">cDone</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/cStart_prev" type="logic">
+      <obj_property name="ElementShortName">cStart_prev</obj_property>
+      <obj_property name="ObjectShortName">cStart_prev</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/cStart_pulse" type="logic">
+      <obj_property name="ElementShortName">cStart_pulse</obj_property>
+      <obj_property name="ObjectShortName">cStart_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/shftU" type="array">
+      <obj_property name="ElementShortName">shftU[15:0]</obj_property>
+      <obj_property name="ObjectShortName">shftU[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/shftV" type="array">
+      <obj_property name="ElementShortName">shftV[15:0]</obj_property>
+      <obj_property name="ObjectShortName">shftV[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/atan_tbl" type="array">
+      <obj_property name="ElementShortName">atan_tbl[0:12][15:0]</obj_property>
+      <obj_property name="ObjectShortName">atan_tbl[0:12][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/C_S_AXI_DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">C_S_AXI_DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_S_AXI_DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/C_S_AXI_ADDR_WIDTH" type="array">
+      <obj_property name="ElementShortName">C_S_AXI_ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_S_AXI_ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/ADDR_LSB" type="array">
+      <obj_property name="ElementShortName">ADDR_LSB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_LSB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/OPT_MEM_ADDR_BITS" type="array">
+      <obj_property name="ElementShortName">OPT_MEM_ADDR_BITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OPT_MEM_ADDR_BITS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/Idle" type="array">
+      <obj_property name="ElementShortName">Idle[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Idle[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/Raddr" type="array">
+      <obj_property name="ElementShortName">Raddr[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Raddr[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/Rdata" type="array">
+      <obj_property name="ElementShortName">Rdata[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Rdata[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/Waddr" type="array">
+      <obj_property name="ElementShortName">Waddr[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Waddr[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cordic/uut/Wdata" type="array">
+      <obj_property name="ElementShortName">Wdata[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Wdata[1:0]</obj_property>
+   </wvobject>
+</wave_config>
